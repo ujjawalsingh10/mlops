@@ -9,4 +9,5 @@ pipreqs . ## to get only used dependencies
 
 ## MLflow
 mlflow ui - used to open mlflow ui in browser
+
 mlflow ui --backend-store-uri sqlite:///mlflow.db  - mlflow backend
