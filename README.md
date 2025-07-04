@@ -11,3 +11,9 @@ pipreqs . ## to get only used dependencies
 mlflow ui - used to open mlflow ui in browser
 
 mlflow ui --backend-store-uri sqlite:///mlflow.db  - mlflow backend
+
+#### logging model
+`log model as an artifact`
+mlflow.log_artifact('mymodel', artifact_path = 'models/')
+`log model using log_model`
+mlflow.<framework>.log_model(model, artifact_path = 'models/')

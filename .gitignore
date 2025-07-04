@@ -209,3 +209,5 @@ __marimo__/
 mlflow_env
 Anaconda3-2025.06-0-Linux-x86_64.sh
 mlflow.db
+mlruns
+xgb_model.json
